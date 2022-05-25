@@ -17,7 +17,7 @@ module.exports = {
     SESSION: process.env.SESSION || '',
     RG: process.env.RG || '919074309534-1632403322@g.us',
     PASSWORD: process.env.PASSWORD || '',
-    BOT_INFO: process.env.BOT_INFO || 'Raganork;Souravkl11;918590822912;https://i.imgur.com/m6kSmBp.jpeg;https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb',
+    BOT_INFO: process.env.BOT_INFO || 'Raganork;Munavir;918590822912;https://i.imgur.com/m6kSmBp.jpeg;https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHk',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,48,972',
     CHATBOT: process.env.CHATBOT || 'off',
@@ -36,7 +36,7 @@ module.exports = {
     },
     DATABASE_URL: DATABASE_URL,
     DATABASE: DATABASE_URL === './bot.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
-    SUDO: process.env.SUDO || '916282344739,0',
+    SUDO: process.env.SUDO || '918590822912,0',
     LANGUAGE: process.env.LANGUAGE || 'english',
     DEBUG: DEBUG
     };
